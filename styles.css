@@ -1,0 +1,38 @@
+html {
+    font-family: Monaco, monospace;
+}
+.top-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: beige;
+    padding-left: 15%;
+    padding-right: -15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.first-button-link {
+    display: inline-flex;
+    font-size: xx-large;
+}
+
+.other-button-link {
+    float: right;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.banner-button-link {
+    color: black;
+    text-decoration: none;
+    max-width: fit-content;
+    padding: 0px 25px 0px 25px;
+}
+
+
+.banner-button-link:hover {
+    color: rgb(80, 80, 80);
+}
