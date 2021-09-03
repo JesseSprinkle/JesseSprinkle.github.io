@@ -1,6 +1,13 @@
 html {
-    font-family: Monaco, monospace;
+    font-family: Arial, sans-serif;
 }
+
+hr {
+    height: 1px;
+    border-width: 0px;
+    background-color: #414141
+}
+
 .top-banner {
     position: fixed;
     top: 0;
@@ -16,30 +23,42 @@ html {
     align-items: center;
 }
 
-.first-button-link {
+.first-banner-button-link {
     font-size: xx-large;
 }
 
-.other-button-links {
+.other-banner-button-link {
+    padding: 0px 25px 0px 25px;
+}
+
+.other-banner-button-links {
     float: right;
     margin-left: auto;
 }
 
-.banner-button-link {
+.button-link {
     color: black;
     text-decoration: none;
-    padding: 0px 25px 0px 25px;
 }
 
-
-.banner-button-link:hover {
-    color: rgb(80, 80, 80);
+.button-link:hover {
+    color: #505050;
 }
 
 .center-div {
     margin-left: 22%;
     margin-right: 22%;
     margin-top: 57px;
-    padding: 2% 2% 2% 2%;
-    background-color: rgb(255, 255, 255);
+    padding: 4% 4% 4% 4%;
+    background-color: #FFFFFF;
+}
+
+.content-title {
+    font-size: 21pt;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.single-line {
+    line-height: 20px;
 }
