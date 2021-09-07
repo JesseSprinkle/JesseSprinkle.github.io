@@ -5,7 +5,23 @@ html {
 hr {
     height: 1px;
     border-width: 0px;
-    background-color: #414141
+    background-color: #414141;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.jesse-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+.jesse-image-wrapper {
+
 }
 
 .top-banner {
@@ -13,7 +29,9 @@ hr {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: beige;
+    height: 57px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 0px darkgrey;
     padding-left: 15%;
     padding-right: 15%;
     padding-top: 10px;
@@ -46,11 +64,12 @@ hr {
 }
 
 .center-div {
-    margin-left: 22%;
-    margin-right: 22%;
+    margin: auto;
+    max-width: 60%;
     margin-top: 57px;
     padding: 4% 4% 4% 4%;
     background-color: #FFFFFF;
+    box-shadow: 1px 0px 0px darkgrey, -1px 1px 0px darkgrey;
 }
 
 .content-title {

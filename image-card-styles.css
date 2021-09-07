@@ -5,11 +5,11 @@
     border-style: solid;
     box-shadow: 1px 1px 1px lightgrey;
     border-width: 10px;
-    border-color: #681616;
+    border-color: #4B6587;
     display: inline-block;
     transition: transform 125ms, color 500ms;
     transition-timing-function: ease-out;
-    background-color: #CD0000;
+    background-color: #F0E5CF;
     width: 200px;
     height: 200px;
 }
