@@ -1,0 +1,45 @@
+.image-card-button {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    box-shadow: 1px 1px 1px lightgrey;
+    border-width: 10px;
+    border-color: #4B6587;
+    display: inline-block;
+    transition: transform 125ms, color 500ms;
+    transition-timing-function: ease-out;
+    background-color: #F0E5CF;
+    width: 200px;
+    height: 200px;
+}
+
+.image-card-button:hover {
+    transform: translateY(5px);
+}
+
+.image-card-image {
+    object-fit: contain;
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin: 20px auto 0px auto;
+    border-radius: 10px;
+}
+
+.image-card-text-div {
+    line-height: 50px;
+    text-align: center;
+    height: 50px;
+}
+
+.image-card-text-span {
+    width: 150px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.image-card-holder {
+    text-align: center;
+}

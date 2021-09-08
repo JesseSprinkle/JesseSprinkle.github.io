@@ -1,12 +1,42 @@
 html {
-    font-family: Monaco, monospace;
+    font-family: Arial, sans-serif;
 }
+
+hr {
+    height: 1px;
+    border-width: 0px;
+    background-color: #414141;
+}
+.tabbed-p {
+    margin-left: 20px;
+    line-height: 1.5; 
+}
+
+body {
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.jesse-image {
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+}
+
+.jesse-image-wrapper {
+    margin: auto;
+    text-align: center;
+}
+
 .top-banner {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: beige;
+    height: 57px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 0px darkgrey;
     padding-left: 15%;
     padding-right: 15%;
     padding-top: 10px;
@@ -16,30 +46,42 @@ html {
     align-items: center;
 }
 
-.first-button-link {
+.first-banner-button-link {
     font-size: xx-large;
 }
 
-.other-button-links {
+.other-banner-button-link {
+    padding: 0px 25px 0px 25px;
+}
+
+.other-banner-button-links {
     float: right;
     margin-left: auto;
 }
 
-.banner-button-link {
+.button-link {
     color: black;
     text-decoration: none;
-    padding: 0px 25px 0px 25px;
 }
 
-
-.banner-button-link:hover {
-    color: rgb(80, 80, 80);
+.button-link:hover {
+    color: #505050;
 }
 
 .center-div {
-    margin-left: 22%;
-    margin-right: 22%;
-    margin-top: 57px;
-    padding: 2% 2% 2% 2%;
-    background-color: rgb(255, 255, 255);
+    margin: 57px auto auto auto;
+    max-width: 40%;
+    padding: 30px 6% 30px 6%;
+    background-color: #FFFFFF;
+    box-shadow: 1px 0px 0px darkgrey, -1px 1px 0px darkgrey;
+}
+
+.content-title {
+    font-size: 21pt;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.single-line {
+    line-height: 20px;
 }
