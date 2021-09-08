@@ -7,6 +7,10 @@ hr {
     border-width: 0px;
     background-color: #414141;
 }
+.tabbed-p {
+    margin-left: 20px;
+    line-height: 1.5; 
+}
 
 body {
     background-image: url(background.jpg);
@@ -15,13 +19,14 @@ body {
 }
 
 .jesse-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 75px;
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
 }
 
 .jesse-image-wrapper {
-
+    margin: auto;
+    text-align: center;
 }
 
 .top-banner {
@@ -64,10 +69,9 @@ body {
 }
 
 .center-div {
-    margin: auto;
-    max-width: 60%;
-    margin-top: 57px;
-    padding: 4% 4% 4% 4%;
+    margin: 57px auto auto auto;
+    max-width: 40%;
+    padding: 30px 6% 30px 6%;
     background-color: #FFFFFF;
     box-shadow: 1px 0px 0px darkgrey, -1px 1px 0px darkgrey;
 }
