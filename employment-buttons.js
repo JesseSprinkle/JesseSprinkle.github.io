@@ -1,4 +1,4 @@
-let curr_descript = "text1"
+let curr_descript = "descript1"
 
 function buttonClicked(id) {
     if(id !== curr_descript) {
@@ -8,4 +8,4 @@ function buttonClicked(id) {
     }
 }
 
-buttonClicked("text1");
+buttonClicked("descript1");

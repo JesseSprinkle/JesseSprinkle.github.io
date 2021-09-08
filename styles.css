@@ -70,7 +70,8 @@ body {
 
 .center-div {
     margin: 57px auto auto auto;
-    max-width: 40%;
+    max-width: 760px;
+    min-height: 85vh;
     padding: 30px 6% 30px 6%;
     background-color: #FFFFFF;
     box-shadow: 1px 0px 0px darkgrey, -1px 1px 0px darkgrey;
