@@ -14,8 +14,9 @@ hr {
 
 body {
     background-image: url(background.jpg);
-    background-position: center;
+    background-position: center-top;
     background-size: cover;
+	overflow-y: scroll;
 }
 
 .jesse-image {
