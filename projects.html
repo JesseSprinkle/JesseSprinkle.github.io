@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="image-card-styles.css">
+        <script src="project-buttons.js"></script>
         <title>Jesse Sprinkle's Personal Site</title>
     </head>
     <body>
@@ -11,12 +12,57 @@
             <div class="other-banner-button-links">
                 <a class="button-link other-banner-button-link" href="employment.html">Employment</a>
                 <a class="button-link other-banner-button-link" href="projects.html">Projects</a>
-                <a class="button-link other-banner-button-link" href="courses.html">Coursework</a>
+                <a class="button-link other-banner-button-link" href="contact.html">Contact</a>
             </div>
         </div>
         <div class="center-div">
-            <div class="content-title">Non-Coursework Projects</div>
-			This Website... coming soon
+            <div class="content-title">Projects</div>
+			<hr>
+			<div style="margin-top: 20px; margin-bottom: 20px" class="image-card-holder" id="button-container">
+				<div class="image-card-button" onclick="buttonClicked('descript1')">
+					<img class="image-card-image" src="raytrace.png"></img>
+					<div class="image-card-text-div"><span class="image-card-text-span">Computer Graphics Projects</span></div>
+				</div>
+				<div class="image-card-button" onclick="buttonClicked('descript2')">
+					<img class="image-card-image" src="fluid.gif"></img>
+					<div class="image-card-text-div"><span class="image-card-text-span">Computer Animation Projects</span></div>
+				</div>
+				<div class="image-card-button" onclick="buttonClicked('descript3')">
+					<img class="image-card-image" src="recursive.png"></img>
+					<div class="image-card-text-div"><span class="image-card-text-span">Web Development Projects</span></div>
+				</div>
+            </div>
+			<hr>
+			<div style="display: block; line-height: 1.5;" id="descript1">
+				<h2 style="text-align: center">Computer Graphics Projects</h2>
+			</div>
+			<div style="display: none; line-height: 1.5;" id="descript2">
+				<h2 style="text-align: center">Computer Animation Projects</h2>
+				<p>The following projects were done for my course CSCE 489 - Computer Animation</p>
+				<h4 style="margin-bottom:7px">An Implementation of Smoothed Particle Hydrodynamics (<a target="_blank" rel="noopener noreferrer"href="https://people.engr.tamu.edu/sueda/courses/CSCE489/2021F/projects/Jesse_Sprinkle/index.html">Webpage</a>)</h4> 
+				<p>
+				I implemented Smoothed Particle Hydrodynamics, a fluid simluation algorithm, as a final project for my Computer Animation course.
+				To complete it I had to research, test, optimize, multithread, and tune parameters, and managed to get a reasonable simulation. Video can be found on the webpage. I also wrote a report on my method:
+				<embed src="SprinkleJesseReport.pdf" type="application/pdf" width="100%" height="500px">
+				</embed>
+				I reset my computer before pushing the source code to Github, so I unfortunately don't have a copy of the code.
+				</p>
+				<h4 style="margin-bottom:7px">Other Animation Projects (<a target="_blank" rel="noopener noreferrer"href="https://github.com/JesseSprinkle/ComputerAnimationProjects">Github</a>)</h4>
+				<p>These projects were other projects for my Computer Animation course. I implemented algorithms for key framing, inverse kinematics, animation skinning, animation blending, and cloth simulations.
+				Rather than explain each of these projects, I would rather present a series of gifs:</p>
+				<div style="width: 50%; margin: 0 auto;">
+				<img width="100%" src="heli.gif"></img>
+				<img width="100%" src="ik.gif"></img>
+				<img width="100%" src="character.gif"></img>
+				<img width="100%" src="cloth.gif"></img>
+				</div>
+				
+				<p>The code to each of these is in the github repository by the title.</p>
+			</div>
+			<div style="display: none; line-height: 1.5;" id="descript3">
+				<h2 style="text-align: center">Web Development Projects</h2>
+				
+			</div>
         </div>
     </body>
 </html>
