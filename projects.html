@@ -20,7 +20,7 @@
 			<hr>
 			<div style="margin-top: 20px; margin-bottom: 20px" class="image-card-holder" id="button-container">
 				<div class="image-card-button" onclick="buttonClicked('descript1')">
-					<img class="image-card-image" src="raytrace.png"></img>
+					<img class="image-card-image" src="ball_reflect.png"></img>
 					<div class="image-card-text-div"><span class="image-card-text-span">Computer Graphics Projects</span></div>
 				</div>
 				<div class="image-card-button" onclick="buttonClicked('descript2')">
@@ -35,6 +35,27 @@
 			<hr>
 			<div style="display: block; line-height: 1.5;" id="descript1">
 				<h2 style="text-align: center">Computer Graphics Projects</h2>
+				<h4 style="margin-bottom:7px">CSCE 441 - Computer Graphics Projects</h4>
+				<p>In my Computer Graphics class, we had a variety of projects that we used to help us learn how computer graphics works, some of which I will list here:
+				<ul>
+					<li>
+					Rasterizing a model to an image, where we went through the process of drawing triangles by looping through pixels and interpolating vertex attributes. All this was done without usage of a graphics library.
+					The outputs below shows the process of lighting a bunny: <img width="50%" src="bunny_box.png"><img width="50%" src="bunny_tri.png"></img><img width="50%" src="bunny_int.png"></img><img width="50%" src="bunny_light.png"></img>
+					</li>
+					<li>
+					Creating an open world using OpenGL with Blinn-Phong lighting, model transformations, and objects in the HUD (images here)
+					</li>
+					<li>
+					A multi-threaded ray tracer, which required drawing rays, detecting their intersection with objects, and bouncing the rays off the object to determine lighting and color:
+					<img width="50%" src="teapot_raytrace.png"><img width="50%" src="ball_reflect.png">
+					</li>
+				</ul>
+				<h4 style="margin-bottom:7px">Personal Graphics Engine (<a target="_blank" rel="noopener noreferrer"href="https://github.com/JesseSprinkle/Graphics-Engine">Github</a>)</h4>
+				<p>
+				I have been writing a graphics engine simply to have something I both built entirely myself and to have something I can implement further graphics algorithms in. Currently, it can render provided meshes, and next I
+				want to rework the architecture. I haven't had time to work on it lately due to work/school, but I intend to get back to it. There are current plans for the project, just need to get the time to do it!
+				</p>
+				
 			</div>
 			<div style="display: none; line-height: 1.5;" id="descript2">
 				<h2 style="text-align: center">Computer Animation Projects</h2>
